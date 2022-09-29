@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+:root{
+    --primary: rgb(152, 67, 36);
+    --secondary: rgb(36, 104, 98);
+    --secondary-hover: rgb(77, 223, 211);
+    --card-background: linear-gradient(to bottom, purple, blue);
+    --box-shadow-effect: 2px 2px 2px brown;
+}
+
+.card-background{
+    background-image: var(--card-background);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 33%;
+    background-color: var(--secondary);
+    margin: 10px 0;
+    /* padding: 15px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: var(--box-shadow-effect);
+    transition: background-color .35s ease-in-out;
+}
+
+.card:hover{
+    background-color: var(--secondary-hover);
+}
+
+.card-title{
+    position: absolute;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    background-color: var(--secondary);
+    /* max-width: 50%; */
+}
+.card-subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.card-content{
+    background-image: var(--card-background)
+}

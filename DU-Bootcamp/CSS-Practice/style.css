@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+p.a {
+    color:red
+}
+p.b {
+    color:blue
+}
+p.c {
+    color: green
+}
+p.d {
+    font-size: xx-large;
+}
+p.e {
+    font-size: small;
+}
+p.f {
+    text-align: center;
+}
+p.g {
+    font-weight: bold;
+}
+p.h {
+    font-family: cursive;
+}
+p.i {
+    font-size: xx-large;
+    font-weight: bold;
+    color:orange
+}
+p.styledFont {
+    color: green;
+}
+img {
+    border-style: dotted;
+    border: 10px solid orange
+}
+img {
+    background-color: blue;
+}
